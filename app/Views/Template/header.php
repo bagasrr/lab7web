@@ -18,5 +18,5 @@
             <a href="/" class="nav-links active">Home</a>
             <a href="/contact" class="nav-links">Contacts</a>
             <a href="/about" class="nav-links">About</a>
-            <a href="/faqs" class="nav-links">FaQs</a>
+            <a href="/artikel" class="nav-links">Artikel</a>
         </nav>

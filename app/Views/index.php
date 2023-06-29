@@ -1,5 +1,6 @@
-<?php require'Template/header.php' ?>
+<?= $this->extend('Template/Template'); ?>
 
+<?= $this->section('content'); ?>
 <div class="pembuka">
     <h1>Hello World!</h1>
     <p>
@@ -64,7 +65,7 @@
             </article>
         </div>
     </div>
-    <div class="right-container">
+    <!-- <div class="right-container">
         <ul class="widget-header">
             <h3>Widget Header</h3>
             <li>Widget Link</li>
@@ -83,6 +84,7 @@
                 excepturi alias dolor quisquam officiis facilis omnis, labore commodi!
             </p>
         </div>
-    </div>
+    </div> -->
 </div>
-<?php require'Template/footer.php' ?>
+<!-- pr Cari cara agar banner Hello World bisa ada seperti yang di inginkan -->
+<?= $this->endSection(); ?>

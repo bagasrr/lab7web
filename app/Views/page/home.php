@@ -1,4 +1,6 @@
-<?php require'Template/header.php' ?>
+<?= $this->extend('Template/template'); ?>
+
+<?= $this->section('content'); ?>
 <div class="pembuka">
     <h1>Hello World!</h1>
     <p>
@@ -84,4 +86,4 @@
         </div>
     </div>
 </div>
-<?php require'Template/footer.php' ?>
+<?= $this->endsection(); ?>

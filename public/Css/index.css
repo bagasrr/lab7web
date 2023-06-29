@@ -10,10 +10,12 @@ body {
 }
 .page-container {
   /* display: grid; */
+  min-height: 500px;
   width: 80%;
   box-shadow: 0 0 2px 2px rgba(222, 222, 222, 0.7);
   /* background: red; */
 }
+
 .header {
   display: flex;
   align-items: center;
